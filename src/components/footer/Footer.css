@@ -1,0 +1,117 @@
+#footerPage {
+    background-color: rgb(219, 217, 217);
+    padding-top: 40px;
+  }
+  #footerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  #footerCard h4 {
+    color: #2a6595;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  #footerImgBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  #footerImgBox img {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 4px;
+  }
+  #footerImgBox h5 {
+    background: -webkit-linear-gradient(0deg, #2a6595, #f89e29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+    border-bottom: 2px solid #f1975b;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #footerRightBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #f0eeeca9;
+    padding-top: 20px;
+  }
+  #footerRightBox small {
+    color: #2a6595;
+  }
+  
+
+
+  #footerCard {
+    background-color: #f8f9fa; /* Background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+#footerCard h4 {
+    color: #333; /* Header text color */
+    font-size: 18px; /* Header font size */
+    margin-bottom: 15px; /* Add margin to separate header from list */
+}
+
+#footerCard ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+#footerCard ul li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+#footerCard ul li a {
+    text-decoration: none; /* Remove default underline */
+    color: #555; /* Link text color */
+    font-size: 16px; /* Link font size */
+    transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+#footerCard ul li a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+
+#footerCard {
+  background-color: #f8f9fa; /* Background color */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+#footerCard h4 {
+  color: #333; /* Header text color */
+  font-size: 18px; /* Header font size */
+  margin-bottom: 15px; /* Margin bottom for spacing */
+}
+
+#footerCard p {
+  margin: 0; /* Reset default margin for paragraphs */
+}
+
+#footerCard p i {
+  margin-right: 10px; /* Add margin between icon and text */
+}
+
+#footerCard p i, #footerCard p {
+  font-size: 18px; /* Icon and text font size */
+  color: #555; /* Icon and text color */
+}
+
+#footerCard p:hover {
+  color: #007bff; /* Change text color on hover */
+  cursor: pointer; /* Add pointer cursor on hover */
+}

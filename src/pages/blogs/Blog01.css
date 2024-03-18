@@ -1,0 +1,81 @@
+#blogePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blogPage01{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+#blogPage01 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#blogAuther{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#blogAuther h5{
+    color: #2a6595;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif
+}
+#blogAuther p{
+    color: #2a6595;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif
+}
+#blogPage01 h4{
+    color: #2a6595;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif
+}
+#blogText p{
+    color: grey;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif
+}
+#blogSocialLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#blogSocialLinks h5{
+    color: #2a6595;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 1px solid #2a6595;
+}
+#blogSocialLinks button{
+    width: 180px;
+    padding: 8px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2a6595;
+    color: antiquewhite;
+    margin-top: 8px;
+}
+#blogSocialLinks button:hover{
+    color: rgb(251, 212, 162);
+    background-color: #3d7fb5;
+}
+#blogBackArrow p{
+    color: #2a6595;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+#blogBackArrow p:hover{
+    text-decoration: underline;
+    color: rgb(163, 130, 108);
+}
