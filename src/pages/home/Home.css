@@ -365,6 +365,15 @@
   }
 
   @media (max-width: 750px) {
+    #reviewCardInner {
+      max-width: 1000px;
+      padding: 20px 20px;
+      margin-top: 30px;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      justify-content: center;
+    }
   
     #reviewCard {
       width: 100%;
@@ -376,11 +385,11 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 15px;
-      margin-top: 40px;
+      padding-top: 20px;
+      
     }
     #reviewCard01 {
-      margin-top: 40px;
+   
       width: 100%;
       height: 60vh;
       display: flex;
@@ -390,10 +399,10 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 15px;
+      padding-top: 20px;
     }
     #reviewCard02 {
-      margin-top: 40px;
+   
       width: 100%;
       height: 60vh;
       display: flex;
@@ -409,10 +418,10 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 15px;
+      padding-top: 20px;
     }
     #reviewCard03 {
-      margin-top: 10px;
+      
       width: 100%;
       height: 60vh;
       display: flex;
@@ -428,7 +437,8 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 15px;
+      padding-top: 20px;
+      border: 1px solid red;
     }
   
   

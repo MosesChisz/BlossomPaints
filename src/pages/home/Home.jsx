@@ -20,8 +20,7 @@ function Home() {
         </h1>
         <p>
           Welcome to Blossom Paints, where we turn your dreams into
-          reality. With precision and passion, we paint spaces that inspire
-          and endure.
+          reality.
         </p>
         <a href="https://wa.me/+27620162346" target="_blank">
                         <button>
@@ -38,7 +37,6 @@ function Home() {
         </h1>
         <p>
             Unlock the transformative potential of painting. With every brushstroke, 
-            we reimagine spaces and elevate experiences. 
             Welcome to a world where possibilities are endless.
         </p>
         <a href="https://wa.me/+27620162346" target="_blank">
@@ -57,7 +55,6 @@ function Home() {
         <p>
             Unlock the transformative potential of painting. With every brushstroke, 
             we reimagine spaces and elevate experiences. 
-            Welcome to a world where possibilities are endless.
         </p>
         <a href="https://wa.me/+27620162346" target="_blank">
                         <button>
