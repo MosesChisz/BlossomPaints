@@ -23,24 +23,16 @@ function Home() {
           reality. With precision and passion, we paint spaces that inspire
           and endure.
         </p>
+        <a href="https://wa.me/+27620162346" target="_blank">
+                        <button>
+                            BOOK A FREE QUOTATION
+                        </button>
+                    </a>
       </div>
     </div>,
     <div id="reviewCard01">
       <div id="reviewCardInner">
-        <h1>
-          Crafting <br />
-          Architectural Marvels
-        </h1>
-        <p>
-          Step into a world of color brilliance and design ingenuity. From 
-          vibrant skyscrapers to inviting homes, our team of experts crafts coatings 
-          that transform structures into timeless works of art.          
-        </p>
-      </div>
-    </div>,
-    <div id="reviewCard02">
-      <div id="reviewCardInner">
-        <h1>
+      <h1>
           Transform Your, House Into
           <br /> A Home Wall & Floor Textured
         </h1>
@@ -49,6 +41,29 @@ function Home() {
             we reimagine spaces and elevate experiences. 
             Welcome to a world where possibilities are endless.
         </p>
+        <a href="https://wa.me/+27620162346" target="_blank">
+                        <button>
+                            BOOK A FREE QUOTATION
+                        </button>
+                    </a>
+      </div>
+    </div>,
+    <div id="reviewCard02">
+      <div id="reviewCardInner">
+      <h1>
+          Welcome To The 
+          <br />Home Of Paints Blossom Paints
+        </h1>
+        <p>
+            Unlock the transformative potential of painting. With every brushstroke, 
+            we reimagine spaces and elevate experiences. 
+            Welcome to a world where possibilities are endless.
+        </p>
+        <a href="https://wa.me/+27620162346" target="_blank">
+                        <button>
+                            BOOK A FREE QUOTATION
+                        </button>
+                    </a>
       </div>
     </div>,
   ];

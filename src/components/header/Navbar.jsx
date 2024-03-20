@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 import { useNavigate, Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -11,7 +11,7 @@ function Navbar() {
     setIsActive(!isActive);
   };
   return (
-    <nav class="navbar navbar-expand-lg">
+    <nav className={`navbar navbar-expand-lg ${isActive ? "active" : ""}`} style={{ backgroundColor: isActive ? "black" : "transparent" }}>
       <div class="container-fluid">
         <div id="logoBox">
           <img src={logo} />
@@ -123,8 +123,8 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <div id="navBtn">       
-          <a href="https://wa.me/+27620162346">LET'S CHAT</a>
+          <div id="navBtn">
+            <a href="https://wa.me/+27620162346">LET'S CHAT</a>
           </div>
         </div>
       </div>

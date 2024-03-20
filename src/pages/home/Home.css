@@ -4,7 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../../assets/construction.jpg");
+    background: linear-gradient(
+      to right,
+      rgba(1, 1, 1, 0.575),
+      rgba(18, 18, 18, 0.336),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/construction.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +22,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../../assets/homeB.png");
+    background: linear-gradient(
+      to right,
+      rgba(1, 1, 1, 0.575),
+      rgba(18, 18, 18, 0.336),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/homeB.png");    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +40,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../../assets/home2.png");
+    background: linear-gradient(
+      to right,
+      rgba(1, 1, 1, 0.575),
+      rgba(18, 18, 18, 0.336),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/home2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +58,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../../assets/homebanner.jpeg");
+    background: linear-gradient(
+      to right,
+      rgba(1, 1, 1, 0.575),
+      rgba(18, 18, 18, 0.336),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/homebanner.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,6 +351,19 @@
   #quoteModalBtn button:hover{
     color: #d29968;
   }
+
+
+  #reviewCardInner button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2a6595;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+
   @media (max-width: 750px) {
   
     #reviewCard {
@@ -359,7 +396,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: url("../../assets/construction.jpg");
+      background: linear-gradient(
+      to right,
+      rgba(1, 1, 1, 0.575),
+      rgba(18, 18, 18, 0.336),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/construction.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
